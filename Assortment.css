@@ -1,0 +1,88 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 100%;
+    height: 2000px;
+    background: linear-gradient(0deg, #000 0%, #DB00FF 100%);
+}
+
+header {
+    width: 100%;
+    height: 100px;
+    background: linear-gradient(52deg, #000 28.1%, #540069 133.38%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: Goldman;
+}
+
+.logo {
+    width: 140px;
+    height: 80px;
+}
+
+.name {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: Goldman;
+    font-size: 50px;
+}
+
+.assortment {
+    width: 90%;
+    margin: 0 auto 0; 
+    max-height: 1500px;
+}
+
+.car {
+    width: 50%;
+    color: white;
+    font-family: Goldman;
+    margin-top: 80px;
+    display: grid;
+    grid-template-columns: repeat(2, 100%);
+    grid-gap: 20px;
+}
+
+.cart {
+    padding: 20px;
+    font-size: 25px;
+    background-color: #000000c2;
+}
+
+.btn {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    margin: auto;
+}
+
+.zak {
+    border: 1mm solid white;
+    border-radius: 100px;
+    color: white;
+    background-color: #00000000;
+    width: 70%;
+    height: 150px;
+    font-size: 60px;
+    font-family: Goldman;
+    margin: auto;
+    margin-top: 70px;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+a:active {
+    text-decoration: none;
+    color: inherit;
+}

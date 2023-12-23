@@ -1,0 +1,83 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 100%;
+    height: 1080px;
+    background: linear-gradient(0deg, #000 0%, #DB00FF 100%);
+}
+
+header {
+    width: 100%;
+    height: 100px;
+    background: linear-gradient(52deg, #000 28.1%, #540069 133.38%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: Goldman;
+}
+
+.logo {
+    width: 140px;
+    height: 80px;
+}
+
+.name {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: Goldman;
+    font-size: 50px;
+}
+
+.conf{
+    width: 100%;
+    height: 980px;
+}
+
+.spis{
+    position: absolute;
+    top: 130px;
+    left: 50px;
+    width: 550px;
+    height: 70px;
+    font-family: Goldman;
+    text-align: center;
+    font-size: 40px;
+    color: rgb(255, 255, 255);
+    background-color:rgb(0, 0, 0);
+    border: none;
+    border: 1mm dashed white;
+    border-radius: 30px;
+}
+
+.carDetails{
+    position: absolute;
+    top: 130px;
+    right: 50px;
+    width: 500px;
+    height: 170px;
+    font-family: Goldman;
+    font-size: 23px;
+    display: grid;
+    justify-content: left;
+    align-items: center;
+    color: white;
+    background-color: #000;
+    padding: 20px;
+    border: 1mm dashed white;
+    border-radius: 30px;
+}
+
+.car {
+    margin: 0 auto 0;
+    position: absolute;
+    width: 60%;
+    z-index: 1;
+    bottom: 0px;
+    left: 300px;
+}
