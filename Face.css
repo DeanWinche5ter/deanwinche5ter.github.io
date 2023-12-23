@@ -164,7 +164,6 @@ a:active {
     .nav {
         font-size: 15px;
         grid-row: 2/3;
-        color: white;
     }
     .motion {
         height: 200px;
